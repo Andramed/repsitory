@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise-Finance</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+         <main class="heroSection">
+            <header class="headerHeroSection">
+                <img src="image/section1/LogoRiseFinance.svg" alt="logo" class="logoRiseFinance">
+                <div class="menuBar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Abou Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </header>
+        <div class="containerSide">
+            <div class="leftHeroSection">
+                <header class="leftSectionHeader">
+                    <h1>
+                        Scale Fintech
+                    <br>
+                        Safe And Secure
+                    </h1>
+                    <p class="heroSectionParagraph">
+                        Ship your fintech products to your customers with fast and reliable processes. Secure and highly customizable. Rise Finance is the best partner for you if you want to scale your finance products worldwide.
+                    </p>
+                </header>
+                    <div class="btnContainer">
+                        <button class="loanCalculate">Loan Calculate</button>
+                        <button class="depositCalculate">Deposit Calculate</button>
+                    </div>
+                    <section class="credit_calculator hidden">
+                        <div class="hiden" id="hiden">
+                            <form class="formCredit">
+                                <label>The amount of credit you need</label>
+                                <input type="number" class="sumaImprumutului" placeholder="amount of credit">
+                                    <select id="valuta">
+                                        <option value="MDL" selected>MDL</option>
+                                        <option value="EUR">EUR</option>
+                                        <option value="USD">USD</option>
+                                    </select>
+                                <input class="terminCredit" placeholder="Repayment period">
+                                    <select id="perioadaRambursare">
+                                        <option value="" selected>Choose period</option>
+                                        <option value="luni">Month</option>
+                                        <option value="ani">Years</option>
+                                    </select>
+                                <label>Rata Dobanzi</label>
+                                <input type="number" class="rataDobanzi" placeholder="Interest rate %" >
+                            </form>
+                        <button class="calculeaza">Calculate</button>
+                        <button class="resetLoan">Reset</button>
+                        <button id="closeLoan" >Close</button>
+                            <div class="grafic">
+                                <p class =" plataLunara">Monthly payment will be: 
+                                    <span class="sumaLunara"></span>
+                                </p>
+                                <p class="sumaTotala">Total amount on repayment
+                                    <span class="sumaLaRambursare"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="calculare_Depozit hidden">
+                            <form class="formDepozit">
+                                <label>Amount you will deposit</label>
+                                <input type="number" class="sumaDepozitului" placeholder="Amount of Deposit">
+                                    <select id="valuta">
+                                        <option value="MDL" selected>MDL</option>
+                                        <option value="EUR">EUR</option>
+                                        <option value="USD">USD</option>
+                                    </select>
+                                <input class="terminDepozit" placeholder="The deposit period">
+                                     <select id="perioadaDepozitare">
+                                        <option value="" selected>Choose period </option>
+                                        <option value="luni">Month</option>
+                                        <option value="ani">Years</option>
+                                    </select>
+                                <label>Deposit Interest Rate</label>
+                                <input type="number" class="procentDobanda" placeholder="Interest rate %" >
+                            </form>
+                            <button class="calculeazaDepozit">Calculate</button>
+                            <button class="resetDepozit">Reset</button>
+                            <button class="closeDepozit">Close</button>
+
+                            <div class="grafic">
+                                <p class =" venitLunar">The monthly income will be: 
+                                    <span class="sumaVenitLunar"></span>
+                                </p>
+                                <p class="venitulTotal">Total amount on return
+                                    <span class="depozitLaRambursare"></span>
+                                </p>
+                            </div>
+                    </section>
+            </div>
+            <div class="rightHeroSection">
+                <div class="sliderContainer">
+                    <div class="containerImg1">
+                        <img src="image/section1/card1_480.png" alt="rightSectionImage" class="rightSectionImage1">
+                    </div>
+                    <div class="containerImg2">
+                        <img src="image/section1/card2_360.png" alt="rightSectionImage2" class="rightSectionImage2">
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footerHeroSection">
+    <div class="container1footerSection">
+        <div class="logo1">
+            <img src="image/section1/Logo1.svg" alt="logo1" class="logo1">
+        </div>
+        <div class="logo2">
+            <img src="image/section1/Logo2.svg" alt="logo2" class="logo1">
+        </div>
+        <div class="logo3">
+            <img src="image/section1/Logo3.svg" alt="logo3" class="logo3">
+        </div>
+        <div class="logo4">
+            <img src="image/section1/logo4.svg" alt="logo4" class="logo4">
+        </div>
+    </div>
+</div>
+<section class="sectionConsultingForStartup">
+    <div class="containerSectionConsulting">
+        <div class="containerHeaderConsulting">
+            <h1>Consulting For Startups In Fintech</h1>
+            <p>Our Team consists of proven experts from finance, tech and science. This mix makes it possible for our team to deliver the best results to all our clients.</p>
+        </div>
+        <img src="image/section2/imgConsulting.png" alt="componentConsulting" class="componentConsulting">
+    </div>
+</section>
+<section class="deliveringSection">
+    <div class="containerDeliiveringSection">
+        <div class="containerHeaderDelivering">
+            <h1>
+                Delivering Value In Every 
+                <br>
+                Step Of Production
+            </h1>
+        </div>
+            <div class="containerSideDelivering">
+                <div class="leftSectionDelivering">
+                    <img src="image/section3/circlechartleftimage_480.png" alt="leftImage" class="leftImage">
+                </div>
+                <div class="righttSectionDelivering">
+                    <div class="containerHeaderRightDelivering">
+                         <h1>The  process</h1>
+                         <p>Strategic phrases we run through with every client make it possible to implement highly efficinet processes, even in high pace startups that like to scale as fast as possible.</p>
+                    </div>
+                    <div class="footerSectionComponent3">
+                        <img src="image/section3/analysisGroup.png" alt="analysisGroup" class="analysisGroup">
+                        <img src="image/section3/growthphase.png" alt="gphase" class="gphase">
+                        <img src="image/section3/profit.png" alt="profit" class="profit">
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<section class="section4_1CorumaFinance">
+    <div class="section4CorumaFinance">
+        <div class="headerFrame4_1">
+            <h1>Coruma Finance</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        </div>
+        <div class="group11Component">
+            <div class="iMacPC">
+                <img src="image/section4/iMacContent.png" alt="iMacContent" class="iMacContent">
+            </div>
+            <img src="image/section4/Group7.png" alt="group7iMac" class="group7iMac">
+            <img src="image/section4/Group8.png" alt="group8iMac" class="group8iMac">
+            <img src="image/section4/Group9.png" alt="group9iMac" class="group9iMac">
+        </div>
+    </div>
+</section>
+<section class="sectionFooter5">
+    <div class="group12">
+        <div class="headerFooter5">
+            <img src="image/section5/logoframe5.svg" alt="logoFrame5" class=""logoFrame5>
+        </div>
+        <div class="frame5ColumnComponent">
+            <div class="column">
+                <h6>Services</h6>
+                <ul>
+                    <li>Web Hosting</li>
+                    <li>Domains</li>
+                    <li>Premium Hosting</li>
+                    <li>Private Services</li>
+                    <li>E-mail Hosting</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h6>Support</h6>
+                <ul>
+                        <li><a href="#">Pricing Plan</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="#">Pricing Plan</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="#">Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h6>Legal</h6>
+                <ul>
+                    <li><a href="#">Pricing Plan</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="#">Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="subscribeInfo">
+                <h6>Subcribe to our newsletter</h6>
+                <p>Funding freemium long tail hypotheses first mover advantage assets ownership</p>
+            </div>
+        </div>  
+        <hr>
+        <div class="footerGroup122">
+            <p>Design with love © TanahAirStudio 2020. All right reserved</p>
+        </div>
+    </div>
+</section>
+
+   <script src="index.js"></script>
+</div>
+</body>
+</html>
